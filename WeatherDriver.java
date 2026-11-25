@@ -1,13 +1,11 @@
 import java.io.FileNotFoundException;
 /**
- * @author John Cigas
- * Put your name and date and description here.
+ * @author Toate Sika
  */
 public class WeatherDriver {
 
 	public static void main(String[] args) {
 		System.out.println("Starting simulation");
-		/*
 		String fileName = "weather.txt";
 		try { 
 			WeatherReport wr = new WeatherReport(fileName);
@@ -19,7 +17,6 @@ public class WeatherDriver {
 		catch (Exception e) {
 			System.out.println("Other error: " + e.getMessage());
 		}
-		*/
 		System.out.println("Finished simulation");
 	}
 
